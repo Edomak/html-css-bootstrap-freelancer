@@ -1,0 +1,53 @@
+/* Debug */
+
+[class*="col-"] {
+    height: 100px;
+    line-height: 100px;
+    /* background-color: yellowgreen; */
+    border: 2px solid black;
+}
+
+.hd-ft-color {
+    background-color: #3a546d;
+}
+
+#jumbo_tron {
+    /* height: 300px; */
+    background-color: #1abc9b;
+}
+
+#house {
+    background-color: #ba4c63;
+}
+
+#cake {
+    background-color: #1ea5b5;
+}
+
+#circus {
+    background-color: black;
+}
+
+#games {
+    background-color: #1c84c1;
+}
+
+#secrets {
+    background-color: #1138b5;
+}
+
+#submarine {
+    background-color: #ccb2a3;
+}
+
+#about {
+    background-color: #1abc9b;
+}
+
+#ms_footer {
+    background-color: #3a546d;
+}
+
+#copyright {
+    background-color: #2d3f4f;
+}
