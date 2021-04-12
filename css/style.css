@@ -72,6 +72,11 @@ header {
     line-height: 45px;
 }
 
+.ms_navbar .navbar-nav > li > a:hover {
+    color: #1abc9b;
+    background-color: #3a546d;
+}
+
 /* Jumbotron */
 
 #jumbo_tron p {
@@ -92,6 +97,10 @@ header {
 
 .my_star_white i {
     color: white;
+    font-size: 35px;
+}
+
+.my_star_black > i {
     font-size: 35px;
 }
 
@@ -116,13 +125,11 @@ header {
     background-color: black;
     border-radius: 3px;
 }
-.my_star_black > i {
-    font-size: 35px;
-}
+
 /* Portfolio */
 
 #portfolio {
-    background-color: #FFFFFF;
+    background-color: white;
     color: #2C3E50;
     margin: 40px 0;
 }
@@ -164,6 +171,7 @@ header {
     margin-bottom: 0;
     font-size: 20px;
     text-transform: capitalize;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 .download_btn .btn-primary {
@@ -176,6 +184,11 @@ header {
 .download_btn i {
     padding: 5px;
     font-size: 20px;
+}
+
+.download_btn .btn:hover {
+    background-color: white;
+    color: black;
 }
 
 /* Contact me! */
@@ -234,13 +247,17 @@ p {
 
 .list_inline {
    list-style: none;
-   margin-right: 10px;
+   margin-right: 20px;
 }
 
 .list_inline li {
     display: inline-block;
     padding: 0 10px;
-    
+}
+
+.list_inline li i:hover {
+    color: #3a546d;
+    background-color: white;
 }
 
 .list_inline li i {
