@@ -23,7 +23,6 @@ body {
 h2,
 h3 {
     text-transform: uppercase;
-    padding: 15px 0;
 }
 
 h1 {
@@ -199,10 +198,49 @@ header {
 
 /* Footer */
 
-#ms_footer {
+#footer_top {
     background-color: #3a546d;
 }
 
-#copyright {
+#footer_top h3,
+p {
+    color: white;
+}
+
+#footer_top p {
+    font-size: 20px;
+}
+
+.list_inline {
+   list-style: none;
+   margin-right: 10px;
+}
+
+.list_inline li {
+    display: inline-block;
+    padding: 0 10px;
+    
+}
+
+.list_inline li i {
+    padding: 15px;
+    font-size: 15px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+#footer_top span {
+    color: #1abc9c;
+    text-transform: capitalize;
+  }
+
+#footer_bottom {
     background-color: #2d3f4f;
+    height: 100px;
+    line-height: 100px;
+}
+
+#footer_bottom p {
+    font-size: 16px;
 }
