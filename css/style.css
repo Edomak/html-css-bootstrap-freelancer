@@ -95,6 +95,27 @@ header {
     font-size: 35px;
 }
 
+.my_star_white:before,
+.my_star_white:after {
+    width: 10%;
+    height: 4px;
+    content: '';
+    display: inline-block;
+    background-color: white;
+    border-radius: 3px;
+    margin: 10px 10px;
+}
+
+.my_star_black:before,
+.my_star_black:after {
+    width: 10%;
+    height: 4px;
+    content: '';
+    display: inline-block;
+    margin: 10px 10px;
+    background-color: black;
+    border-radius: 3px;
+}
 .my_star_black > i {
     font-size: 35px;
 }
@@ -132,7 +153,7 @@ header {
 }
 
 #about p {
-    padding: 15px 50px;
+    padding: 15px 0;
     color:white;
     font-size: 18px;
     text-align: left;
@@ -223,7 +244,7 @@ p {
 }
 
 .list_inline li i {
-    padding: 15px;
+    padding: 10px;
     font-size: 15px;
     color: white;
     border: 1px solid white;
