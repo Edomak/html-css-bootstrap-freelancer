@@ -72,6 +72,11 @@ header {
     line-height: 45px;
 }
 
+.ms_navbar .navbar-brand:hover {
+    color: #1abc9b;
+    background-color: #3a546d;
+}
+
 .ms_navbar .navbar-nav > li > a:hover {
     color: #1abc9b;
     background-color: #3a546d;
@@ -194,7 +199,8 @@ header {
 /* Contact me! */
 
 .ms-form .form-control {
-    font-size: 25px;
+    font-size: 22px;
+    font-weight: 500;
     color: black;
     padding: 30px 12px;
     border: 0;
@@ -234,6 +240,7 @@ header {
 
 #footer_top {
     background-color: #3a546d;
+    padding-top: 30px;
 }
 
 #footer_top h3,
@@ -241,44 +248,54 @@ p {
     color: white;
 }
 
+#footer_top h3 {
+    padding: 10px 0;
+}
+
 #footer_top p {
     font-size: 20px;
 }
 
-.list_inline {
+.my_list_inline {
    list-style: none;
-   margin-right: 20px;
+   padding: 10px 0;
 }
 
-.list_inline li {
+.my_list_inline li {
     display: inline-block;
-    padding: 0 10px;
+    padding: 0 5px;
 }
 
-.list_inline li i:hover {
+.my_list_inline li a:hover {
     color: #3a546d;
     background-color: white;
 }
 
-.list_inline li i {
-    padding: 10px;
-    font-size: 15px;
+.my_list_inline li  a {
     color: white;
-    border: 1px solid white;
+    border: 2px solid white;
+    padding: 15px;
     border-radius: 50%;
+}
+
+.my_list_inline li > a > i {
+    font-size: 15px;
 }
 
 #footer_top span {
     color: #1abc9c;
     text-transform: capitalize;
-  }
+}
+
+/* Footer-bottom */
 
 #footer_bottom {
     background-color: #2d3f4f;
     height: 100px;
+    margin-top: 20px;
     line-height: 100px;
 }
 
 #footer_bottom p {
-    font-size: 16px;
+    font-size: 15px;
 }
