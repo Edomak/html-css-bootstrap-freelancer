@@ -1,0 +1,13 @@
+.ms_navbar .navbar-brand {
+    color: black;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.ms_navbar .navbar-nav > li > a {
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+}

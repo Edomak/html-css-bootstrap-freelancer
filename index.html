@@ -6,57 +6,131 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- Font-Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
         <!-- Link my style -->
         <link rel="stylesheet" href="css/style.css">
         <title>Boostrap Freelancer</title>
     </head>
     <body>
         <!-- Header e Nav -->
-        <header class="header_top">
-            <div class="container hd-ft-color">
-                <div class="row">
-                    <div class="col-xs-5 col-md-4"></div>
-                    <div class="col-xs-offset-5 col-xs-2 col-md-offset-4 col-md-4"></div>
+        <header>
+            <nav class="navbar ms_navbar">
+                <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">start bootstrap</a>
                 </div>
-            </div>
+          
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">portfolio</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </nav>
         </header>
         <!-- /Header e Nav -->
         <!-- Jumbotron -->
-        <div id="jumbo_tron" class="container">
-            <div class="row">
-                <div class="col-xs-12"></div>
-                <div class="col-xs-12"></div>
+        <div id="jumbo_tron">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <img src="img/avatar.svg" alt="">
+                        <h1>start bootstrap</h1>
+                        <div class="my_star_white">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>graphic artist - web designer - illustrator</p>
+                    </div>
+                </div>
             </div>
         </div>
         <!-- /Jumbotron -->
         <!-- Main -->
         <main>
             <!-- Portfolio -->
-            <div id="portfolio" class="container">
-                <div class="row">
-                    <div id="house" class="col-xs-12 col-md-6 col-lg-4"></div>
-                    <div id="cake" class="col-xs-12 col-md-6 col-lg-4"></div>
-                    <div id="circus" class="col-xs-12 col-md-6 col-lg-4"></div>
-                    <div id="games" class="col-xs-12 col-md-6 col-lg-4"></div>
-                    <div id="secrets" class="col-xs-12 col-md-6 col-lg-4"></div>
-                    <div id="submarine" class="col-xs-12 col-md-6 col-lg-4"></div>
+            <div id="portfolio">
+                <div class="container">
+                    <h2>portfolio</h2>
+                    <div class="my_star_black">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
+                            <div class="portfolio_item">
+                                <img src="img/cabin.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
+                            <div class="portfolio_item">
+                                <img src="img/cabin.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
+                            <div class="portfolio_item">
+                                <img src="img/cabin.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
+                            <div class="portfolio_item">
+                                <img src="img/cabin.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
+                            <div class="portfolio_item">
+                                <img src="img/cabin.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-lg-4">
+                            <div class="portfolio_item">
+                                <img src="img/cabin.png" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-- /Portfolio -->
             <!-- About -->
-            <div id="about" class="container">
+            <div id="about" class="container-fluid">
+                <h2>about</h2>
+                    <div class="my_star_white">
+                        <i class="fas fa-star"></i>
+                    </div>
                 <div class="row">
-                    <div class="col-xs-12 col-md-6"></div>
-                    <div class="col-xs-12 col-md-6"></div>
-                    <div class="col-xs-12"></div>
+                    <div class="col-xs-12 col-md-6">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo atque, ut ratione excepturi voluptatem eligendi autem, laborum labore nisi consequuntur soluta necessitatibus aliquam maiores alias cum magni qui ab eaque?</p>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ut quasi ipsam hic ipsa, quo reprehenderit repellat. Sunt expedita dolorem distinctio minus eum, doloremque, quis sapiente id facilis suscipit corrupti?</p>
+                    </div>
+                    <div class="col-xs-12 btn">
+                        <a href="#">Download</a>
+                    </div>
                 </div>
             </div>
             <!-- /About -->
             <!-- Contact me -->
             <div id="contact-me" class="container">
+                <h2>contact me</h2>
+                <div class="my_star_black">
+                    <i class="fas fa-star"></i>
+                </div>
                 <div class="row">
-                    <div class="col-xs-12"></div>
-                    <div class="col-xs-12"></div>
+                    <div class="col-xs-12">
+                        <p>Name</p>
+                        <p>Email Address</p>
+                        <p>Phone Number</p>
+                        <p id="message">Message</p>
+                    </div>
+                    <div class="col-xs-12 btn"></div>
                 </div>
             </div>
             <!-- /Contact me -->
@@ -64,7 +138,7 @@
         <!-- /Main -->
         <!-- Footer -->
         <footer>
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-xs-12 col-md-4 hd-ft-color"></div>
                     <div class="col-xs-12 col-md-4 hd-ft-color"></div>
@@ -74,5 +148,8 @@
             </div>
         </footer>
         <!--/Footer -->
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
     </body>
 </html>

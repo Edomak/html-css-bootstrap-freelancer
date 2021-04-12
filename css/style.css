@@ -1,47 +1,142 @@
 /* Debug */
 
 [class*="col-"] {
-    height: 100px;
-    line-height: 100px;
+    min-height: 100px;
+    /* line-height: 100px; */
     /* background-color: yellowgreen; */
-    border: 2px solid black;
+    /* border: 2px solid black; */
+}
+
+/* /Debug */
+
+/* Common */
+
+body {
+    text-align: center;
+}
+
+h2,
+h3 {
+    text-transform: uppercase;
+    padding: 15px 0;
+}
+
+h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
 }
 
 .hd-ft-color {
     background-color: #3a546d;
 }
 
+/* Navbar */
+
+header {
+    height: 80px;
+    line-height: 80px;
+    background-color: #3a546d;
+}
+
+.ms_navbar .navbar-toggle {
+    padding: 9px 10px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    background-color: transparent;
+}
+
+.ms_navbar .navbar-toggle .icon-bar {
+    background-color: white;
+    width: 25px;
+    height: 3px;
+} 
+
+.ms_navbar .navbar-brand {
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.ms_navbar .navbar-nav > li > a {
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 45px;
+}
+
+/* Jumbotron */
+
+#jumbo_tron p {
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+#jumbo_tron img {
+    height: 260px;
+}
+
 #jumbo_tron {
-    /* height: 300px; */
+    padding: 30px 0;
     background-color: #1abc9b;
 }
 
-#house {
-    background-color: #ba4c63;
+.my_star_white i {
+    color: white;
+    font-size: 40px;
+    padding: 10px 0;
 }
 
-#cake {
-    background-color: #1ea5b5;
+.my_star_black > i {
+    font-size: 40px;
+    padding: 10px 0;
+}
+/* Portfolio */
+
+#portfolio {
+    background-color: #FFFFFF;
+    color: #2C3E50;
+}
+.portfolio_item {
+    height: 250px;
+    border-radius: 10px;
+    margin: 15px 0;
 }
 
-#circus {
-    background-color: black;
-}
-
-#games {
-    background-color: #1c84c1;
-}
-
-#secrets {
-    background-color: #1138b5;
-}
-
-#submarine {
-    background-color: #ccb2a3;
+.portfolio_item img {
+    height: 100%;
+    border-radius: 20px;
 }
 
 #about {
     background-color: #1abc9b;
+}
+
+#about h2 {
+    color: white;
+}
+
+#about p {
+    padding: 15px 50px;
+    color:white;
+    font-size: 18px;
+    text-align: left;
+}
+
+#contact-me p {
+    text-align: left;
+    padding: 15px 0;
+    margin: 0 100px;
+    border-bottom: 1px solid gray;
+}
+
+#message {
+    border: 0;
 }
 
 #ms_footer {
